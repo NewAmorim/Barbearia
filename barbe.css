@@ -1,0 +1,192 @@
+/* ===== FONTS ===== */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: inter;
+}
+
+.background{
+    height: 40rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    background: linear-gradient(rgba(6, 18, 30, 0.196) 0%, rgba(6, 18, 30, 0.37) 36.74%, rgba(6, 18, 30, 0.157) 69.61%, rgb(6, 18, 30) 100%) 0% 0% / cover, url(./background.png), -15px -164.265px lightgray;
+}
+
+.logoimg {
+    margin-left: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    position: absolute;
+}
+
+.headertext {
+    border-style: groove;
+    border-color: rgba(255, 255, 255, 0.301);
+    margin-left: 79rem;
+    color: white;
+}
+
+.imgbackground {
+    flex-direction: column; 
+    display: flex;
+    width: 100vw;
+    height: 60%;
+}
+
+.img2background {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text1background {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.text2background {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.text3background {
+    margin-top: 2rem;
+    border-width: 10px;
+    background-color: red;
+    border-radius: 0.2rem;
+    width: 150px;
+    padding: 0.5rem;
+    color: white;
+}
+
+.section2 {
+    background-color: #06121e;
+    position: relative;
+    padding: 2rem;
+    height: 50vw;
+    display: flex;
+    gap: 5rem;
+}
+
+.texttitlesection2 {
+    color: white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.textsection2 {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.servicos {
+    padding: 1rem;
+}
+
+
+
+.textsection3 {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.section3 {
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.section3img {
+    margin-left: 14rem;
+    align-items: center;
+    gap: 1rem;
+    display: flex;
+    width: 354px;
+    height: 389px;
+    color: black;
+
+}
+
+.textimg4 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 0.3rem;
+    width: 100px;
+    height: 25px;
+}
+
+.textimg {
+    color: black;
+    font-weight: bold;
+}
+
+.section4 {
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+
+.section5 {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: rgb(3, 3, 27);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logofinal {
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.final {
+    color: white;
+}
+
+.services{
+    display: flex;
+    gap: 8.0rem;
+    background-color: rgba(237, 237, 237, 0.258);
+    border-radius: 0.2rem;
+    box-shadow: 5px 5px 5px rgb(196, 196, 196);
+    height: 2rem;
+}
+
+.services1 {
+    display: flex;
+    gap: 8.1rem;
+    background-color: rgba(237, 237, 237, 0.258);
+    border-radius: 0.2rem;
+    box-shadow: 5px 5px 5px rgb(196, 196, 196);
+    height: 2rem;
+}
+
+.services3 {
+    display: flex;
+    gap: 8.3rem;
+    background-color: rgba(237, 237, 237, 0.258);
+    border-radius: 0.2rem;
+    box-shadow: 5px 5px 5px rgb(196, 196, 196);
+    height: 2rem;
+}
+
+.logoo {
+    display: flex;
+    gap: 1rem;
+}

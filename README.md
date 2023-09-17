@@ -1,0 +1,1 @@
+O projeto é um site para uma barbearia, com algumas demonstrações de valores, cortes de cabelo, barba e alguns preços.
